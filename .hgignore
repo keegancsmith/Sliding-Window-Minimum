@@ -1,4 +1,6 @@
 syntax: glob
 
-sliding_window_minimum
+sliding_window_minimum.o
+sliding_window_minimum.hi
+sliding_window_minimum_*
 sliding_window_minimum.html
