@@ -102,8 +102,8 @@ window.::
 
 Note that deleting lazily can actually make this algorithm perform rather
 badly. If the input is N values from N to 1, then a value is never deleted
-from the priority queue leading to O(N) insertions. However on average this is
-empirically faster than the multiset version.
+from the priority queue leading to O(logN) insertions. However, on average
+this is empirically faster than the multiset version.
 
 Sliding Window Minimum Algorithm
 ================================
